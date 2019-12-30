@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 14px;
+}
+body{
+    overflow: hidden;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.layerLi .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #008b8b;
+}
+.layerLi .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #008b8b;
+    border-color: #008b8b;
+}
+div .el-submenu__title{
+    height: 70px;
+    line-height: 70px;
+}
+.el-loading-mask .el-loading-spinner .el-loading-text{
+    color:rgba(255, 255, 255,.7);
+    font-size: 18px;
+}
+.baseMap .el-loading-mask .el-loading-spinner i{
+    color:rgba(255, 255, 255,.7);
+    font-size: 28px;
+}
+.el-input .el-input__inner{
+    border:1px solid #c5c5c5
+}
+body .v-modal{
+    opacity: 0;
+}
+.el-switch__label.is-active span{
+    color:#008b8b;
+}
