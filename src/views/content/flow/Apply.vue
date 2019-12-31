@@ -19,7 +19,7 @@
 
         computed:{
             queryApply() {
-//获取路由切换时传递的参数信息
+                //获取路由切换时传递的参数信息
                 return console.log(this.$route)
             }
         }

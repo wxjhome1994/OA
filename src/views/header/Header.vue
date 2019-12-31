@@ -12,7 +12,7 @@
                 </ul>
             </div>
 
-            <div class="login"><a href="login.html">登录</a></div>
+            <div class="login"><a href="./login.html"><i class="iconfont icon-icon-"></i> 登录</a></div>
         </el-header>
             <router-view></router-view>
 
@@ -64,5 +64,6 @@
                     border-bottom 2px solid #008b8b
         .login
             position: absolute
-            right: 50px
+            right: 30px
+            line-height:56px
 </style>

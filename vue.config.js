@@ -1,4 +1,5 @@
 module.exports={
+    lintOnSave: false,
     pages:{
         login:{
             entry:'src/login.js',
